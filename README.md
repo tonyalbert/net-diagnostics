@@ -49,7 +49,7 @@ cd backend
 # Criar ambiente virtual
 python -m venv .venv
 
-# Ativar ambiente virtual (IMPORTANTE!)
+# Ativar ambiente virtual
 .venv\Scripts\activate
 
 # Instalar dependências
@@ -84,7 +84,7 @@ run.bat
 ## Login
 
 - **Usuário:** `admin`
-- **Senha:** `admin123`
+- **Senha:** `admin`
 
 ## Comandos Úteis
 
