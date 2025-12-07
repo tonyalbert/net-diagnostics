@@ -1,5 +1,5 @@
 @echo off
-REM Script para rodar a aplicação Beegol no Windows
+REM Script para rodar a aplicação no Windows
 
 echo.
 echo ================================

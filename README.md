@@ -5,7 +5,7 @@ Sistema para monitoramento e análise de diagnósticos de rede com dashboard int
 ## Estrutura do Projeto
 
 ```
-beegol/
+net-diagnostics/
 ├── backend/              # API Flask (Python)
 │   ├── app/
 │   │   ├── models/      # Modelos do banco de dados

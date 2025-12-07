@@ -3,7 +3,7 @@ REM Script de configuracao inicial para Windows
 
 echo.
 echo ================================
-echo   SETUP - Beegol
+echo   SETUP - Net Diagnostics
 echo ================================
 echo.
 
