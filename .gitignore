@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Ambientes virtuais Python
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Banco de dados
+*.db
+*.sqlite
+*.sqlite3
+backend/instance/
+
+# Variáveis de ambiente
+.env
+.env.local
+.env.*.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Coverage e testes
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.hypothesis/
+*.cover
+.cache
+
+# Node (Frontend)
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Build
+build/
+*.egg-info/
+.eggs/
+
+# Outros
+*.bak
+*.tmp
+.mypy_cache/
+
