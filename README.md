@@ -97,10 +97,6 @@ run.bat clean        # Limpar cache
 run.bat help         # Ver ajuda
 ```
 
-## Problemas?
-
-Veja o arquivo [TROUBLESHOOTING.md](TROUBLESHOOTING.md) para soluções comuns.
-
 ## URLs
 
 - **Frontend:** http://localhost:5173
