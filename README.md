@@ -1,7 +1,5 @@
 # Sistema de Diagnósticos de Rede
 
-Sistema para monitoramento e análise de diagnósticos de rede com dashboard interativo.
-
 ## Estrutura do Projeto
 
 ```
@@ -23,21 +21,29 @@ net-diagnostics/
 │   │   └── services/   # Cliente API
 │   └── package.json    # Dependências Node.js
 │
-├── Makefile            # Comandos simplificados
+├── docker-compose.yml
 └── README.md           # Este arquivo
 ```
 
 ## Início Rápido
 
-### Windows
+### Docker
 
 ```bash
-# Setup inicial
-setup.bat
+# Construir e iniciar (backend + frontend + banco)
+docker-compose up --build
 
-# Rodar a aplicação
-run.bat
+# Rodar em background
+docker-compose up -d
+
+# Ver logs
+docker-compose logs -f
+
+# Parar
+docker-compose down
 ```
+
+O banco de dados será criado e populado automaticamente na primeira execução.
 
 ### Manual (Passo a Passo)
 
@@ -58,11 +64,13 @@ pip install -r requirements.txt
 # Criar banco de dados
 python create_and_populate_db.py
 
-# Voltar para a raiz
-cd ..
+# Rodar servidor
+python run.py
 ```
 
 #### 2. Frontend
+
+Em outro terminal:
 
 ```bash
 cd frontend
@@ -70,32 +78,14 @@ cd frontend
 # Instalar dependências
 npm install
 
-# Voltar para a raiz
-cd ..
-```
-
-#### 3. Executar
-
-```bash
-# Agora use o run.bat
-run.bat
+# Rodar em desenvolvimento
+npm run dev
 ```
 
 ## Login
 
 - **Usuário:** `admin`
 - **Senha:** `admin`
-
-## Comandos Úteis
-
-```bash
-run.bat              # Roda aplicação completa
-run.bat backend      # Apenas backend
-run.bat frontend     # Apenas frontend
-run.bat db-setup     # Recriar banco de dados
-run.bat clean        # Limpar cache
-run.bat help         # Ver ajuda
-```
 
 ## URLs
 

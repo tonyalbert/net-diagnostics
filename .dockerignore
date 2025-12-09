@@ -1,0 +1,35 @@
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+.venv
+venv/
+env/
+*.db
+*.sqlite
+.pytest_cache
+.coverage
+htmlcov/
+
+# Node
+node_modules/
+dist/
+*.log
+
+# Git
+.git
+.gitignore
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Documentação
+*.md
+!README.md
+
