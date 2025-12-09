@@ -17,12 +17,8 @@ COPY . .
 # Criar diretório para banco de dados
 RUN mkdir -p instance
 
-# Dar permissão de execução ao script
-RUN chmod +x docker-entrypoint.sh
-
 # Expor porta
 EXPOSE 5000
 
-# Usar script de entrada
-ENTRYPOINT ["./docker-entrypoint.sh"]
+# Executar aplicação
 CMD ["python", "run.py"]

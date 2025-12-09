@@ -61,9 +61,6 @@ python -m venv .venv
 # Instalar dependências
 pip install -r requirements.txt
 
-# Criar banco de dados
-python create_and_populate_db.py
-
 # Rodar servidor
 python run.py
 ```
