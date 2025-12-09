@@ -16,4 +16,5 @@ htmlcov/
 .gitignore
 *.md
 .DS_Store
+!docker-entrypoint.sh
 
